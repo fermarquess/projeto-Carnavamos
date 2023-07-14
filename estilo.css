@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2.1rem;
+}
+
+li {
+    display: inline;
+    color: #480952;
+    font-family: 'Nunito', sans-serif;
+    padding: 3.3rem;
+
+}
+
+h1 {
+    color: #480952;
+    font-family: 'Inter', sans-serif;
+    padding: 3.3rem;
+    font-size: 3.0rem;
+
+}
+
+div {
+    width: auto;
+    height: 522px;
+    background-color: rgba(205, 85, 248, 0.06);
+    padding: 2.2rem;
+
+}
+
+.carrosel {
+    color: #480952;
+    font-family: 'Inter', sans-serif;
+
+
+}
