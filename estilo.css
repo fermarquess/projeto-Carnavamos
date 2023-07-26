@@ -1,3 +1,9 @@
+header {
+    margin: auto;
+    text-align: center;
+
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -6,31 +12,64 @@ ul {
 
 li {
     display: inline;
-    color: #480952;
+    color: var(--cor0);
     font-family: 'Nunito', sans-serif;
     padding: 3.3rem;
 
 }
 
 h1 {
-    color: #480952;
+    color: var(--cor0);
     font-family: 'Inter', sans-serif;
     padding: 3.3rem;
     font-size: 3.0rem;
 
 }
 
+a {
+    color: var(--cor0);
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+
+}
+
 div {
     width: auto;
-    height: 522px;
-    background-color: rgba(205, 85, 248, 0.06);
+    height: 28.6rem;
+    margin: auto;
+    background-color: var(--cor2);
     padding: 2.2rem;
+    text-align: center;
 
 }
 
 .carrosel {
-    color: #480952;
+    color: var(--cor0);
     font-family: 'Inter', sans-serif;
+
+
+}
+
+.pc {
+    background-color: var(--cor1);
+    width: 35.7rem;
+    margin: auto;
+    padding: 2.4rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.paragrafo {
+    font-family: 'Inter', sans-serif;
+    color: #480952;
+
+}
+
+
+:root {
+    --cor0:  #480952;
+    --cor1: #e4fbe4;
+    --cor2: #cd55f80f;
 
 
 }
